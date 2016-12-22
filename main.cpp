@@ -147,10 +147,9 @@ int main(void) {
         printf("Failed to read firmware version\r\n");
       }
       // printf("Key status = 0x%x\r\n", keys);
-     int i = 0; 
-     bool kleur = 0;
-
-      bool ambulance = true;	
+      // int i = 0; 
+      // bool kleur = 0;
+      // bool ambulance = true;	
       switch (keys) {
         case UP:
           printf("UP \r\n");
@@ -175,7 +174,7 @@ int main(void) {
         case B:
           printf("B \r\n");
  	  line =  "dim";
-	  ambulance = false;
+	  //ambulance = false;
           break;
         case X:
           printf("X \r\n");
